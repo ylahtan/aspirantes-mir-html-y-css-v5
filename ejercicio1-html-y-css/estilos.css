@@ -2,11 +2,15 @@
     color: #e65400e0;
     font-size: 75px;
 }
-.color {background-color: #00ccff;
+
+.color {
+    background-color: #00ccff;
 }
+
 .contenedor {
     text-align: center;
 }
+
 .envoltura {
     font-size: 25px;
     margin-left: 50px
