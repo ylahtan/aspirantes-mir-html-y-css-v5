@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -8,18 +8,21 @@
     border-radius: 20px;
     margin: 0 auto;
     background: linear-gradient(#bd09b7, #6b4cf5);
-    box-shadow: 6px 6px 8px 8px grey;   
-    
+    box-shadow: 6px 6px 8px 8px grey;
+
 }
 
 .font {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    line-height: 30px;
 }
 
-#Email, #Password, #Género {
+#Email,
+#Password,
+#Género {
     width: 100%;
-    padding: 7px
+    padding: 7px;
 }
 
 button {
@@ -30,18 +33,16 @@ button {
     padding-right: 15px;
 }
 
-
-@media (max-width: 500px){
-    .form{
+@media (max-width: 500px) {
+    .form {
         width: 100%;
-    } 
+    }
 
 }
 
-@media (min-width: 500px){
-    .form{
-        width: 300px
-    } 
+@media (min-width: 500px) {
+    .form {
+        width: 300px;
+    }
 
 }
-
